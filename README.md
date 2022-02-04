@@ -1,4 +1,4 @@
 # GMS2-Action-Adventure-Game
 
-* John Smith
+* Marc Aubanel
 * I will add comments, corrections and thoughts here
