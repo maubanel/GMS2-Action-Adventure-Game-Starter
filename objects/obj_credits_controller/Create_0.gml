@@ -1,12 +1,12 @@
 /// @description Credit role
 
 credits = "Game: Marc Aubanel\n";
-credits += "\nSpecial Thanks: Jason Elliott and all previous students of this class\n";
+credits += "\nSpecial Thanks: All previous students of this class who have made improvements\n";
 credits += "\n\nSound Effects downloaded from\n";
 credits += "https://freesound.org";
 credits += "All sounds licensed under #Creative Commons: By Attribution\n";
 credits += "beeps by greencouch\n";
-credits += "pushbyttn by sergenious\n";
+credits += "pushbuttn by sergenious\n";
 credits += "electronic-bloops by mwmarsh\n";
 credits += "wildchase by snhardo\n";
 credits += "\n\nMusic: Teller of the Tales\n";

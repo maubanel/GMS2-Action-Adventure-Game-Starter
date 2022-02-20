@@ -9,7 +9,7 @@ function scr_fe_text() {
 			button_reference.image_index = 1;
 		}
 	
-		if (keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(global.gamepad[0], gp_face1))
+		if (keyboard_check_pressed(vk_enter))
 		{
 			image_index = 2;
 			button_reference.image_index = 2;

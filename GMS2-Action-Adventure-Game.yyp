@@ -2,7 +2,6 @@
   "resources": [
     {"id":{"name":"obj_fe_start","path":"objects/obj_fe_start/obj_fe_start.yy",},"order":3,},
     {"id":{"name":"obj_fe_title","path":"objects/obj_fe_title/obj_fe_title.yy",},"order":4,},
-    {"id":{"name":"obj_gamepad","path":"objects/obj_gamepad/obj_gamepad.yy",},"order":0,},
     {"id":{"name":"draw_dialogue_input","path":"scripts/draw_dialogue_input/draw_dialogue_input.yy",},"order":0,},
     {"id":{"name":"scr_player_movement_fe","path":"scripts/scr_player_movement_fe/scr_player_movement_fe.yy",},"order":1,},
     {"id":{"name":"scr_check_if_array","path":"scripts/scr_check_if_array/scr_check_if_array.yy",},"order":3,},
@@ -31,7 +30,6 @@
     {"id":{"name":"draw_dialogue_question","path":"scripts/draw_dialogue_question/draw_dialogue_question.yy",},"order":2,},
     {"id":{"name":"rm_castle","path":"rooms/rm_castle/rm_castle.yy",},"order":2,},
     {"id":{"name":"tls_background_tiles","path":"tilesets/tls_background_tiles/tls_background_tiles.yy",},"order":3,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -47,9 +45,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"rm_fe","path":"rooms/rm_fe/rm_fe.yy",},},
     {"roomId":{"name":"rm_castle","path":"rooms/rm_castle/rm_castle.yy",},},
+    {"roomId":{"name":"rm_fe","path":"rooms/rm_fe/rm_fe.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -67,7 +64,6 @@
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/FE.yy","order":1,"resourceVersion":"1.0","name":"FE","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/Gamepad.yy","order":2,"resourceVersion":"1.0","name":"Gamepad","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Messages.yy","order":3,"resourceVersion":"1.0","name":"Messages","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/FE.yy","order":1,"resourceVersion":"1.0","name":"FE","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Helper.yy","order":1,"resourceVersion":"1.0","name":"Helper","tags":[],"resourceType":"GMFolder",},
@@ -88,7 +84,7 @@
     "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
-  "name": "GMS2-Action-Adventure-Game-Complete",
+  "name": "GMS2-Action-Adventure-Game",
   "tags": [],
   "resourceType": "GMProject",
 }

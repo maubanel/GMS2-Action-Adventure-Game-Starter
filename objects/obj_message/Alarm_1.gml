@@ -2,7 +2,7 @@
 
 instance_destroy();
 
-caller_id.new_message_box = noone;
+calling_id.new_message_box = noone;
 
 with (calling_id)
 {

@@ -18,7 +18,7 @@ if (typewriter_finished)
 		input[@0] = keyboard_string;	
 		if (!alarm[3]) alarm[3] = cursor_delay;
 	}
-	if (keyboard_check_pressed(vk_enter)||  gamepad_button_check_pressed(global.gamepad[0], gp_face1))
+	if (keyboard_check_pressed(vk_enter))
 	{
 		//alarm0 loads up next message or hides display for 3 seconds to allow
 		//player to move out of collision zone
@@ -27,16 +27,10 @@ if (typewriter_finished)
 	}
 	if (type == 1)
 	//Select yes or no in question state
-	if (type == 1 && (keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left) != 0
-					||  gamepad_axis_value(global.gamepad[0], gp_axislh) != 0))
+	if (type == 1 && (keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left) != 0))
 	{
 		var x_axis = keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left);
-		if (x_axis == 0)
-		{
-			x_axis = gamepad_axis_value(global.gamepad[0], gp_axislh);
-		}
-		show_debug_message(x_axis);
-		show_debug_message(gamepad_axis_value(global.gamepad[0], gp_axislh));
+
 		if (yes_button_index == 5 && x_axis > 0 )
 		{
 			yes_button_index = 4;
@@ -52,7 +46,7 @@ if (typewriter_finished)
 }
 else //Typewriter is not finished
 {
-	if (keyboard_check_pressed(vk_enter)||  gamepad_button_check_pressed(global.gamepad[0], gp_face1))
+	if (keyboard_check_pressed(vk_enter))
 	{
 		//Skips typewrite and fills in array
 		scr_fill_rest_of_array();	
